@@ -1,0 +1,148 @@
+.maincontainer{
+    width: 668px;
+    height: 668px;
+    top: -218px;
+    left: 5205px;
+    padding: 148px 466px 148px 466px;
+    background: #3B4664;
+    border: 1px solid #000000;
+}
+.input{
+    position: absolute;
+    width: 536px;
+    height: 142.73px;
+    top: 194px;
+    left: 466px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #181F32;
+    border: none;
+    color: white;
+    font-size: 55px;
+    
+}
+::placeholder{
+    color: white;
+    font-size: 55px;
+
+}
+.container2{
+    position: absolute;
+    width: 536px;
+    height: 487px;
+    top: 363px;
+    left: 466px;
+    gap: 10px;
+    border-radius: 12px;
+    background: #252D44;
+}
+.keypad{
+    position: absolute;
+    font-family: system-ui;
+    display: grid;
+    width: 466px;
+    height:392px;
+    top: 48px;
+    left: 35px;
+    
+}
+.keyrow1{
+    display: flex;
+    gap: 22px;
+    width: 466px;
+    height: 60px;
+ 
+
+}
+.keyrow2{
+    display: flex;
+    gap: 22px;
+    width: 466px;
+    height: 60px;
+   
+}
+.keyrow3{
+    display: flex;
+    gap: 22px;
+    width: 466px;
+    height: 60px;
+    
+}
+.keyrow4{
+    display: flex;
+    gap: 22px;
+    width: 466px;
+    height: 60px;
+    
+}
+.keyrow5{
+    display: flex;
+    width: 466px;
+    height: 60px;
+    gap: 22px;
+  
+}
+.key{
+    width: 100px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: rgb(24, 92, 152);
+    cursor: pointer;
+    background-color: white;
+}
+.reset{
+    width: 222.44px;
+    height: 60px;
+    border-radius: 11.52px;
+    background: #647299;
+    text-align: center;
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.equal{
+    width: 222.44px;
+    height: 60px;
+    border-radius: 11.52px;
+    text-align: center;
+    background: #D13F30;
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+}
+#num{
+    margin-top: 8px;
+    margin-left: 40px;
+    line-height: 42px;
+    color: #3B4664;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+.del{
+    width: 100px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 40px;
+    color: rgb(24, 92, 152);
+    background: #647299;
+
+
+
+}
+#del{
+    margin-top: 8px;
+    margin-left: 16px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
